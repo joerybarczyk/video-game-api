@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "a642ef5a-459a-41db-a039-17bc0acb121c",
+		"name": "Video Game API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllPublishers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7260/api/examples/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7260",
+					"path": [
+						"api",
+						"examples",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetAllPublishers",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7260/api/examples/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7260",
+							"path": [
+								"api",
+								"examples",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 12 May 2022 16:56:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"10TACLE Studios\",\n    \"1C Company\",\n    \"20th Century Fox Video Games\",\n    \"2D Boy\",\n    \"3DO\",\n    \"49Games\",\n    \"505 Games\",\n    \"5pb\",\n    \"7G//AMES\",\n    \"989 Sports\",\n    \"989 Studios\",\n    \"Abylight\",\n    \"Acclaim Entertainment\",\n    \"Accolade\",\n    \"Ackkstudios\",\n    \"Acquire\",\n    \"Activision\",\n    \"Activision Blizzard\",\n    \"Activision Value\",\n    \"Adeline Software\",\n    \"Aerosoft\",\n    \"Agatsuma Entertainment\",\n    \"Agetec\",\n    \"Aksys Games\",\n    \"Alawar Entertainment\",\n    \"Alchemist\",\n    \"Alternative Software\",\n    \"Altron\",\n    \"Alvion\",\n    \"American Softworks\",\n    \"Angel Studios\",\n    \"Answer Software\",\n    \"AQ Interactive\",\n    \"Aqua Plus\",\n    \"Aques\",\n    \"Arc System Works\",\n    \"Arena Entertainment\",\n    \"Aria\",\n    \"Arika\",\n    \"ArtDink\",\n    \"Aruze Corp\",\n    \"ASC Games\",\n    \"Ascaron Entertainment\",\n    \"Ascaron Entertainment GmbH\",\n    \"ASCII Entertainment\",\n    \"ASCII Media Works\",\n    \"Asgard\",\n    \"ASK\",\n    \"Asmik Ace Entertainment\",\n    \"Asmik Corp\",\n    \"Aspyr\",\n    \"Astragon\",\n    \"Asylum Entertainment\",\n    \"Atari\",\n    \"Athena\",\n    \"Atlus\",\n    \"Avalon Interactive\",\n    \"Avanquest\",\n    \"Avanquest Software\",\n    \"Axela\",\n    \"BAM! Entertainment\",\n    \"Banpresto\",\n    \"Benesse\",\n    \"Berkeley\",\n    \"Bethesda Softworks\",\n    \"Big Ben Interactive\",\n    \"Big Fish Games\",\n    \"Bigben Interactive\",\n    \"bitComposer Games\",\n    \"Black Bean Games\",\n    \"Black Label Games\",\n    \"Blast! Entertainment Ltd\",\n    \"Blue Byte\",\n    \"BMG Interactive Entertainment\",\n    \"Bohemia Interactive\",\n    \"Bomb\",\n    \"Boost On\",\n    \"BPS\",\n    \"Brash Entertainment\",\n    \"Broccoli\",\n    \"BushiRoad\",\n    \"Capcom\",\n    \"Cave\",\n    \"CBS Electronics\",\n    \"CCP\",\n    \"CDV Software Entertainment\",\n    \"ChunSoft\",\n    \"City Interactive\",\n    \"Cloud Imperium Games Corporation\",\n    \"Coconuts Japan\",\n    \"Codemasters\",\n    \"Codemasters Online\",\n    \"CokeM Interactive\",\n    \"Coleco\",\n    \"Comfort\",\n    \"Commseed\",\n    \"Compile\",\n    \"Compile Heart\",\n    \"Conspiracy Entertainment\",\n    \"Core Design Ltd.\",\n    \"CPG Products\",\n    \"Crave Entertainment\",\n    \"Creative Core\",\n    \"Crimson Cow\",\n    \"Crystal Dynamics\",\n    \"CTO SpA\",\n    \"Culture Brain\",\n    \"Culture Publishers\",\n    \"CyberFront\",\n    \"Cygames\",\n    \"D3Publisher\",\n    \"Daedalic\",\n    \"Daedalic Entertainment\",\n    \"Daito\",\n    \"Data Age\",\n    \"Data Design Interactive\",\n    \"Data East\",\n    \"Datam Polystar\",\n    \"Deep Silver\",\n    \"Destination Software, Inc\",\n    \"Destineer\",\n    \"Detn8 Games\",\n    \"Devolver Digital\",\n    \"DHM Interactive\",\n    \"DigiCube\",\n    \"Disney Interactive Studios\",\n    \"Dorart\",\n    \"dramatic create\",\n    \"DreamCatcher Interactive\",\n    \"DreamWorks Interactive\",\n    \"DSI Games\",\n    \"DTP Entertainment\",\n    \"Dusenberry Martin Racing\",\n    \"EA Games\",\n    \"Easy Interactive\",\n    \"Ecole\",\n    \"Edia\",\n    \"Eidos Interactive\",\n    \"Electronic Arts\",\n    \"Electronic Arts Victor\",\n    \"Elf\",\n    \"Elite\",\n    \"Empire Interactive\",\n    \"Encore\",\n    \"Enix Corporation\",\n    \"Enjoy Gaming ltd.\",\n    \"Enterbrain\",\n    \"EON Digital Entertainment\",\n    \"Epic Games\",\n    \"Epoch\",\n    \"Ertain\",\n    \"ESP\",\n    \"Essential Games\",\n    \"Evolution Games\",\n    \"Evolved Games\",\n    \"Excalibur Publishing\",\n    \"Experience Inc.\",\n    \"Extreme Entertainment Group\",\n    \"Falcom Corporation\",\n    \"Fields\",\n    \"Flashpoint Games\",\n    \"Flight-Plan\",\n    \"Focus Home Interactive\",\n    \"Focus Multimedia\",\n    \"fonfun\",\n    \"Foreign Media Games\",\n    \"Fortyfive\",\n    \"Fox Interactive\",\n    \"From Software\",\n    \"Fuji\",\n    \"Funbox Media\",\n    \"Funcom\",\n    \"FunSoft\",\n    \"Funsta\",\n    \"FuRyu\",\n    \"FuRyu Corporation\",\n    \"G.Rev\",\n    \"Gaga\",\n    \"Gainax Network Systems\",\n    \"Gakken\",\n    \"Game Arts\",\n    \"Game Factory\",\n    \"Game Life\",\n    \"Gamebridge\",\n    \"Gamecock\",\n    \"Gameloft\",\n    \"GameMill Entertainment\",\n    \"GameTek\",\n    \"Gathering of Developers\",\n    \"General Entertainment\",\n    \"Genki\",\n    \"Genterprise\",\n    \"Ghostlight\",\n    \"Giga\",\n    \"Giza10\",\n    \"Glams\",\n    \"Global A Entertainment\",\n    \"Global Star\",\n    \"GN Software\",\n    \"GOA\",\n    \"Gotham Games\",\n    \"Graffiti\",\n    \"Grand Prix Games\",\n    \"Graphsim Entertainment\",\n    \"Gremlin Interactive Ltd\",\n    \"Griffin International\",\n    \"Groove Games\",\n    \"GSP\",\n    \"GT Interactive\",\n    \"GungHo\",\n    \"Gust\",\n    \"Hackberry\",\n    \"HAL Laboratory\",\n    \"Hamster Corporation\",\n    \"Happinet\",\n    \"Harmonix Music Systems\",\n    \"Hasbro Interactive\",\n    \"Havas Interactive\",\n    \"Headup Games\",\n    \"Hearty Robin\",\n    \"Hect\",\n    \"Hello Games\",\n    \"Her Interactive\",\n    \"Hip Interactive\",\n    \"HMH Interactive\",\n    \"Home Entertainment Suppliers\",\n    \"Hudson Entertainment\",\n    \"Hudson Soft\",\n    \"Human Entertainment\",\n    \"HuneX\",\n    \"Iceberg Interactive\",\n    \"id Software\",\n    \"Idea Factory\",\n    \"Idea Factory International\",\n    \"IE Institute\",\n    \"Ignition Entertainment\",\n    \"Illusion Softworks\",\n    \"Imadio\",\n    \"Image Epoch\",\n    \"imageepoch Inc.\",\n    \"Imageworks\",\n    \"Imagic\",\n    \"Imagineer\",\n    \"Imax\",\n    \"Indie Games\",\n    \"Infogrames\",\n    \"Insomniac Games\",\n    \"Interchannel\",\n    \"Interchannel-Holon\",\n    \"Intergrow\",\n    \"Interplay\",\n    \"Interplay Productions\",\n    \"Interworks Unlimited, Inc.\",\n    \"Inti Creates\",\n    \"Introversion Software\",\n    \"inXile Entertainment\",\n    \"Irem Software Engineering\",\n    \"ITT Family Games\",\n    \"Ivolgamus\",\n    \"iWin\",\n    \"Jack of All Games\",\n    \"Jaleco\",\n    \"Jester Interactive\",\n    \"Jorudan\",\n    \"JoWood Productions\",\n    \"Just Flight\",\n    \"JVC\",\n    \"Kadokawa Games\",\n    \"Kadokawa Shoten\",\n    \"Kaga Create\",\n    \"Kalypso Media\",\n    \"Kamui\",\n    \"Kando Games\",\n    \"Karin Entertainment\",\n    \"Kemco\",\n    \"KID\",\n    \"Kids Station\",\n    \"King Records\",\n    \"Knowledge Adventure\",\n    \"Koch Media\",\n    \"Kokopeli Digital Studios\",\n    \"Konami Digital Entertainment\",\n    \"Kool Kizz\",\n    \"KSS\",\n    \"Laguna\",\n    \"Legacy Interactive\",\n    \"LEGO Media\",\n    \"Level 5\",\n    \"Lexicon Entertainment\",\n    \"Licensed 4U\",\n    \"Lighthouse Interactive\",\n    \"Liquid Games\",\n    \"Little Orbit\",\n    \"Locus\",\n    \"LSP Games\",\n    \"LucasArts\",\n    \"Mad Catz\",\n    \"Magical Company\",\n    \"Magix\",\n    \"Majesco Entertainment\",\n    \"Mamba Games\",\n    \"Marvel Entertainment\",\n    \"Marvelous Entertainment\",\n    \"Marvelous Games\",\n    \"Marvelous Interactive\",\n    \"Masque Publishing\",\n    \"Mastertronic\",\n    \"Mastiff\",\n    \"Mattel Interactive\",\n    \"Max Five\",\n    \"Maximum Family Games\",\n    \"Maxis\",\n    \"MC2 Entertainment\",\n    \"Media Entertainment\",\n    \"Media Factory\",\n    \"Media Rings\",\n    \"Media Works\",\n    \"MediaQuest\",\n    \"Men-A-Vision\",\n    \"Mentor Interactive\",\n    \"Mercury Games\",\n    \"Merscom LLC\",\n    \"Metro 3D\",\n    \"Michaelsoft\",\n    \"Micro Cabin\",\n    \"Microids\",\n    \"Microprose\",\n    \"Microsoft Game Studios\",\n    \"Midas Interactive Entertainment\",\n    \"Midway Games\",\n    \"Milestone\",\n    \"Milestone S.r.l\",\n    \"Milestone S.r.l.\",\n    \"Minato Station\",\n    \"Mindscape\",\n    \"Mirai Shounen\",\n    \"Misawa\",\n    \"Mitsui\",\n    \"mixi, Inc\",\n    \"MLB.com\",\n    \"Mojang\",\n    \"Monte Christo Multimedia\",\n    \"Moss\",\n    \"MTO\",\n    \"MTV Games\",\n    \"Mud Duck Productions\",\n    \"Mumbo Jumbo\",\n    \"Mycom\",\n    \"Myelin Media\",\n    \"Mystique\",\n    \"N/A\",\n    \"Namco Bandai Games\",\n    \"Natsume\",\n    \"Navarre Corp\",\n    \"Naxat Soft\",\n    \"NCS\",\n    \"NCSoft\",\n    \"NDA Productions\",\n    \"NEC\",\n    \"NEC Interchannel\",\n    \"Neko Entertainment\",\n    \"NetRevo\",\n    \"New\",\n    \"New World Computing\",\n    \"NewKidCo\",\n    \"Nexon\",\n    \"Nichibutsu\",\n    \"Nihon Falcom Corporation\",\n    \"Nintendo\",\n    \"Nippon Amuse\",\n    \"Nippon Columbia\",\n    \"Nippon Ichi Software\",\n    \"Nippon Telenet\",\n    \"Nitroplus\",\n    \"Nobilis\",\n    \"Nordcurrent\",\n    \"Nordic Games\",\n    \"NovaLogic\",\n    \"Number None\",\n    \"O3 Entertainment\",\n    \"Ocean\",\n    \"Office Create\",\n    \"O-Games\",\n    \"On Demand\",\n    \"Ongakukan\",\n    \"Origin Systems\",\n    \"Otomate\",\n    \"Oxygen Interactive\",\n    \"P2 Games\",\n    \"Pacific Century Cyber Works\",\n    \"Pack In Soft\",\n    \"Pack-In-Video\",\n    \"Palcom\",\n    \"Panther Software\",\n    \"Paon\",\n    \"Paon Corporation\",\n    \"Paradox Development\",\n    \"Paradox Interactive\",\n    \"Parker Bros.\",\n    \"Performance Designed Products\",\n    \"Phantagram\",\n    \"Phantom EFX\",\n    \"Phenomedia\",\n    \"Phoenix Games\",\n    \"Piacci\",\n    \"Pinnacle\",\n    \"Pioneer LDC\",\n    \"Play It\",\n    \"Playlogic Game Factory\",\n    \"Playmates\",\n    \"Playmore\",\n    \"PlayV\",\n    \"Plenty\",\n    \"PM Studios\",\n    \"Pony Canyon\",\n    \"PopCap Games\",\n    \"Popcorn Arcade\",\n    \"PopTop Software\",\n    \"Pow\",\n    \"PQube\",\n    \"Princess Soft\",\n    \"Prototype\",\n    \"Psygnosis\",\n    \"Quelle\",\n    \"Quest\",\n    \"Quinrose\",\n    \"Quintet\",\n    \"Rage Software\",\n    \"Rain Games\",\n    \"Rebellion\",\n    \"Rebellion Developments\",\n    \"RED Entertainment\",\n    \"Red Orb\",\n    \"Red Storm Entertainment\",\n    \"RedOctane\",\n    \"Reef Entertainment\",\n    \"responDESIGN\",\n    \"Revolution (Japan)\",\n    \"Revolution Software\",\n    \"Rising Star Games\",\n    \"Riverhillsoft\",\n    \"Rocket Company\",\n    \"Rondomedia\",\n    \"RTL\",\n    \"Russel\",\n    \"Sammy Corporation\",\n    \"Saurus\",\n    \"Scholastic Inc.\",\n    \"SCi\",\n    \"Screenlife\",\n    \"SCS Software\",\n    \"Sears\",\n    \"Sega\",\n    \"Seta Corporation\",\n    \"Seventh Chord\",\n    \"Shogakukan\",\n    \"Simon & Schuster Interactive\",\n    \"Slightly Mad Studios\",\n    \"Slitherine Software\",\n    \"SNK\",\n    \"SNK Playmore\",\n    \"Societa\",\n    \"Sold Out\",\n    \"Sonnet\",\n    \"Sony Computer Entertainment\",\n    \"Sony Computer Entertainment America\",\n    \"Sony Computer Entertainment Europe\",\n    \"Sony Music Entertainment\",\n    \"Sony Online Entertainment\",\n    \"SouthPeak Games\",\n    \"Spike\",\n    \"SPS\",\n    \"Square\",\n    \"Square EA\",\n    \"Square Enix\",\n    \"SquareSoft\",\n    \"SSI\",\n    \"Stainless Games\",\n    \"Starfish\",\n    \"Starpath Corp.\",\n    \"Sting\",\n    \"Storm City Games\",\n    \"Strategy First\",\n    \"Success\",\n    \"Summitsoft\",\n    \"Sunflowers\",\n    \"Sunrise Interactive\",\n    \"Sunsoft\",\n    \"Sweets\",\n    \"Swing! Entertainment\",\n    \"Syscom\",\n    \"System 3\",\n    \"System 3 Arcade Software\",\n    \"System Soft\",\n    \"T&E Soft\",\n    \"Taito\",\n    \"Takara\",\n    \"Takara Tomy\",\n    \"Take-Two Interactive\",\n    \"Takuyo\",\n    \"TalonSoft\",\n    \"TDK Core\",\n    \"TDK Mediactive\",\n    \"Team17 Software\",\n    \"Technos Japan Corporation\",\n    \"TechnoSoft\",\n    \"Tecmo Koei\",\n    \"Telegames\",\n    \"Telltale Games\",\n    \"Telstar\",\n    \"Tetris Online\",\n    \"TGL\",\n    \"The Adventure Company\",\n    \"The Learning Company\",\n    \"THQ\",\n    \"Tigervision\",\n    \"Time Warner Interactive\",\n    \"Titus\",\n    \"Tivola\",\n    \"TOHO\",\n    \"Tommo\",\n    \"Tomy Corporation\",\n    \"TopWare Interactive\",\n    \"Touchstone\",\n    \"Tradewest\",\n    \"Trion Worlds\",\n    \"Tripwire Interactive\",\n    \"Tru Blu Entertainment\",\n    \"Tryfirst\",\n    \"TYO\",\n    \"Type-Moon\",\n    \"U.S. Gold\",\n    \"Ubisoft\",\n    \"Ubisoft Annecy\",\n    \"UEP Systems\",\n    \"UFO Interactive\",\n    \"UIG Entertainment\",\n    \"Ultravision\",\n    \"Universal Gamex\",\n    \"Universal Interactive\",\n    \"Unknown\",\n    \"Valcon Games\",\n    \"ValuSoft\",\n    \"Valve\",\n    \"Valve Software\",\n    \"Vap\",\n    \"Vatical Entertainment\",\n    \"Vic Tokai\",\n    \"Victor Interactive\",\n    \"Video System\",\n    \"Views\",\n    \"Vir2L Studios\",\n    \"Virgin Interactive\",\n    \"Virtual Play Games\",\n    \"Visco\",\n    \"Vivendi Games\",\n    \"Wanadoo\",\n    \"Warashi\",\n    \"Wargaming.net\",\n    \"Warner Bros. Interactive Entertainment\",\n    \"Warp\",\n    \"WayForward Technologies\",\n    \"Westwood Studios\",\n    \"White Park Bay Software\",\n    \"Wizard Video Games\",\n    \"Xicat Interactive\",\n    \"Xing Entertainment\",\n    \"Xplosiv\",\n    \"XS Games\",\n    \"Xseed Games\",\n    \"Yacht Club Games\",\n    \"Yamasa Entertainment\",\n    \"Yeti\",\n    \"Yuke's\",\n    \"Yumedia\",\n    \"Zenrin\",\n    \"Zoo Digital Publishing\",\n    \"Zoo Games\",\n    \"Zushi Games\"\n]"
+				}
+			]
+		},
+		{
+			"name": "GetAllGames",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7260/api/games/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7260",
+					"path": [
+						"api",
+						"games",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetGameById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7260/api/games/1450",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7260",
+					"path": [
+						"api",
+						"games",
+						"1450"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetGameById",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7260/api/games/1450",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7260",
+							"path": [
+								"api",
+								"games",
+								"1450"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 12 May 2022 18:16:50 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1450,\n        \"rank\": 1098,\n        \"name\": \"SpongeBob SquarePants: Battle for Bikini Bottom\",\n        \"platform\": \"PS2\",\n        \"year\": 2003,\n        \"genre\": \"Platform\",\n        \"publisher\": \"THQ\",\n        \"northAmericaSales\": 1.08,\n        \"europeSales\": 0.45,\n        \"japanSales\": 0,\n        \"otherSales\": 0.14,\n        \"globalSales\": 1.67\n    }\n]"
+				}
+			]
+		}
+	]
+}
